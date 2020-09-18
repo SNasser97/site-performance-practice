@@ -1,2 +1,4 @@
-# keiko-corp
-The greatest company ever created
+# Site performance practice
+
+Exercise in improving a demo sites performance
+
