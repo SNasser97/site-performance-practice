@@ -12,7 +12,7 @@ Exercise in improving a demo sites performance
   <li>Preload fonts, css + vendors.js</li>
   <li>Defer js scripts - only execute once DOM content loaded</li>
   <li>Resize + compress images</li>
-  <li>Create css sprite sheet for some icons - serve only 1 image for multiple icons
+  <li>Create css sprite sheet for some icons - serve only 1 image for multiple icons <a href='https://www.giftofspeed.com/sprite-generator/'>css sprite gen site</a>
   </li>
 </ul>
 
