@@ -16,12 +16,12 @@ Exercise in improving a demo sites performance
   </li>
 </ul>
 
-## pageSpeed Insights (before):
+## pageSpeed Insights (after):
 ### Desktop
 ![](./img/metrics/pgSpeed-after-desktop.png)
 ### Mobile
 ![](./img/metrics/pgSpeed-after-mobile.png)
-## webPageTest (before):
+## webPageTest (after):
 ![](./img/metrics/webpagetest-after.png)
 
 ## pageSpeed Insights (before):
@@ -29,7 +29,7 @@ Exercise in improving a demo sites performance
 ![](./img/metrics/before-pgSpeed-desktop.png)
 ### Mobile
 ![](./img/metrics/before-pgSpeed-mobile.png)
-## webPageTest (after):
+## webPageTest (before):
 ![](./img/metrics/before-webpageTest.png)
 
 
