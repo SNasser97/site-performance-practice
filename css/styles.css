@@ -667,14 +667,27 @@ footer .copyright a {
         background-attachment: fixed;
     }
 }
-.sprite {
+/* ! SPRITE MAIN STYLES */
+.sprite,
+.sprite-social,
+.sprite-features,
+.sprite-main__logo,
+.sprite-icon__logo
+ {
     display: inline-block;
     vertical-align: middle;
 }
-.sprite {
-    background-image: url(../img/sprite_icons.png);
+.sprite,
+.sprite-social,
+.sprite-features,
+.sprite-main__logo,
+.sprite-icon__logo {
     background-position: left center;
     background-repeat: no-repeat;
+}
+/* ! SPRITE APP FEATURES */
+.sprite {
+    background: url(../img/sprites/sprite_icons.png)
 }
 .sprite.camera_icon {
     padding: 10px;
@@ -716,3 +729,45 @@ footer .copyright a {
     width: 17px;
     height: 19px;
 }
+
+/* ! SOCIAL IMG SPRITES */
+.sprite-social {background-image: url(../img/sprites/sprite_social.png);}
+.sprite-social.facebook_png {background-position: 0 0; width: 30px; height: 30px;}
+.sprite-social.twitter_png {background-position: -40px 0; width: 30px; height: 30px;}
+.sprite-social.google_png {background-position: -80px 0; width: 30px; height: 30px;}
+
+/* ! FEATURES ICONS SPRITES */
+
+.sprite-features {
+    background-image: url(../img/sprites/sprite_features.png); 
+}
+.sprite-features.f_icon1_png {background-position: 0 0; width: 32px; height: 32px;}
+.sprite-features.f_icon2_png {background-position: -42px 0; width: 36px; height: 32px;}
+.sprite-features.f_icon3_png {background-position: -88px 0; width: 36px; height: 32px;}
+.sprite-features.f_icon4_png {background-position: -134px 0; width: 32px; height: 32px;}
+.sprite-features.f_icon5_png {background-position: -176px 0; width: 32px; height: 32px;}
+.sprite-features.f_icon6_png {background-position: -218px 0; width: 36px; height: 32px;}
+
+/* ! SPRITE FULL LOGO BRANDS */
+.sprite-main__logo {
+    background-image: url(../img/sprites/sprite_brands.png);
+    opacity: 0.35;
+}
+.sprite-main__logo.facebook_logo_png {background-position: 0 0; width: 130px; height: 45px;}
+.sprite-main__logo.google_logo_png {background-position: -140px 0; width: 130px; height: 45px;}
+.sprite-main__logo.paypal_logo_png {background-position: -280px 0; width: 130px; height: 45px;}
+.sprite-main__logo.yahoo_logo_png {background-position: -420px 0; width: 130px; height: 45px;}
+
+/* ! SPRITE LOGO ICONS */
+
+.sprite-icon__logo {
+    background-image: url(../img/sprites/sprite_icon_brand.png);
+    opacity: 0.35;
+    transition: .2s all;
+}
+.sprite-icon__logo:hover {
+    opacity: .45;
+}
+.sprite-icon__logo.android_icon_png {background-position: 0 0; width: 33px; height: 38px;}
+.sprite-icon__logo.ios_icon_png {background-position: -43px 0; width: 29px; height: 38px;}
+.sprite-icon__logo.windows_icon_png {background-position: -82px 0; width: 40px; height: 38px;}
