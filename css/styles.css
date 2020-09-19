@@ -493,7 +493,7 @@ a.app_store_btn {
 }
 .sub_box #mc_submit {
     display: inline-block;
-    width: 60px;
+    width: 90px;
     height: 50px;
     border-top-right-radius: 2px;
     -o-border-top-right-radius: 2px;
@@ -643,6 +643,33 @@ footer .copyright a {
     .sub_box #mc_submit {
         margin-top: 20px;
     }
+}
+.mc_send-text {
+    color:#41c17d;
+    /* font-weight: bold; */
+    font-family: 'open_regular';
+    line-height: 1.2;
+    display:inline-block;
+    margin-right: 5px;
+    
+}
+#submit_form {
+    position: relative;
+}
+.mc-email__label {
+    color:#41c17d;
+    position: absolute;
+    top:15px;
+    left:430px;
+    margin-left:10px;
+    transition: .6s all;
+    z-index: -2;
+}
+#mc-email:focus + .mc-email__label {
+    top:-25px;
+    color:#fff;
+    z-index: -2;
+    /* opacity: 0; */
 }
 @media only screen and (max-width: 600px) {
     .hero {
