@@ -5,14 +5,12 @@
 	<title>Keiko Corp | OPTIMISED</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
-	<link rel="preload" href="css/vendors.css" as="style">
-	<link rel="preload" href="css/main.css" as="style">
-	<link rel="preload" href="js/vendors.js" as="script">
+	<link rel="preload" href="css/styles-min.css" as="style">
+	<link rel="preload" href="js/bundle.js" as="script">
 	<link rel="preload" as="font" href="fonts/opensans-regular.woff" type="font/woff2" crossorigin="anonymous">
 	<link rel="preload" as="font" href="fonts/opensans-semibold.woff" type="font/woff2" crossorigin="anonymous">
 	<link rel="preload" as="font" href="fonts/opensans-bold.woff" type="font/woff2" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="css/vendors.css" media="all"/>
-	<link rel="stylesheet" type="text/css" href="css/main.css" media="all"/>
+	<link rel="stylesheet" type="text/css" href="css/styles-min.css" media="all"/>
 </head>
 
 <body>
@@ -29,12 +27,16 @@
 			</nav>
 			<div class="social pull-right">
 				<ul class="list-unstyled">
-					<li class="animated wow fadeInRight" data-wow-delay=".2s"><a href="#"><img src="img/facebook.png" alt=""
-								title=""></a></li>
-					<li class="animated wow fadeInRight" data-wow-delay=".1s"><a href="#"><img src="img/twitter.png" alt=""
-								title=""></a></li>
-					<li class="animated wow fadeInRight" data-wow-delay="0s"><a href="#"><img src="img/google.png" alt=""
-								title=""></a></li>
+					<li class="animated wow fadeInRight" data-wow-delay=".2s">
+						<a href="#">
+							<span  class="sprite-social facebook_png"></span>
+						</a></li>
+					<li class="animated wow fadeInRight" data-wow-delay=".1s">
+						<a href="#"><span class="sprite-social twitter_png"></span></a>
+					</li>
+					<li class="animated wow fadeInRight" data-wow-delay="0s">
+						<a href="#"><span class="sprite-social google_png"></span></a>
+					</li>
 				</ul>
 			</div><span class="burger_icon">menu</span>
 		</div>
@@ -54,14 +56,18 @@
 	<section class="featured_on">
 		<div class="container">
 			<ul class="list-unstyled text-center clearfix">
-				<li class="col-xs-6 col-sm-6 col-md-3 animated wow fadeInDown"> <img src="img/google_logo.png" alt="google logo"
-						title="" height="45" width="130"></li>
-				<li class="col-xs-6 col-sm-6 col-md-3 animated wow fadeInDown" data-wow-delay=".2s"> <img
-						src="img/facebook_logo.png" alt="facebook logo" title="" height="45" width="130"></li>
-				<li class="col-xs-6 col-sm-6 col-md-3 animated wow fadeInDown" data-wow-delay=".3s"> <img
-						src="img/yahoo_logo.png" alt="yahoo logo" title="" height="45" width="130"></li>
-				<li class="col-xs-6 col-sm-6 col-md-3 animated wow fadeInDown" data-wow-delay=".4s"> <img
-						src="img/paypal_logo.png" alt="paypal logo" title="" height="45" width="130"></li>
+				<li class="col-xs-6 col-sm-6 col-md-3 animated wow fadeInDown">
+					<span class="sprite-main__logo google_logo_png"></span>
+				</li>
+				<li class="col-xs-6 col-sm-6 col-md-3 animated wow fadeInDown" data-wow-delay=".2s">
+					<span class="sprite-main__logo facebook_logo_png"></span>
+				</li>
+				<li class="col-xs-6 col-sm-6 col-md-3 animated wow fadeInDown" data-wow-delay=".3s">
+					<span class="sprite-main__logo paypal_logo_png"></span>
+				</li>
+				<li class="col-xs-6 col-sm-6 col-md-3 animated wow fadeInDown" data-wow-delay=".4s">
+					<span class="sprite-main__logo yahoo_logo_png"></span>
+				</li>
 			</ul>
 		</div>
 	</section>
@@ -69,7 +75,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 text-center animated wow fadeInLeft">
-					<div class="iphone"> <img src="img/iphone.png" alt="iphone device" titl=""></div>
+					<div class="iphone"> <img src="img/iphone.png" alt="iphone device" title=""></div>
 				</div>
 				<div class="col-md-6 animated wow fadeInRight">
 					<div class="features_list">
@@ -89,45 +95,45 @@
 				</div>
 			</div>
 		</div>
-		<div class="about_video show_video"> <a href="" class="close_video"></a></div>
+		<div class="about_video show_video"> <a href="#" class="close_video"></a></div>
 	</section>
 	<section class="app_features" id="app_features">
 		<div class="container">
 			<div class="row text-center">
-				<div class="col-sm-4 col-md-4 details animated wow fadeInDown" data-wow-delay="0s"> <img src="img/f_icon1.png"
-						alt="" title="">
+				<div class="col-sm-4 col-md-4 details animated wow fadeInDown" data-wow-delay="0s"> 
+					<span class="sprite-features f_icon1_png"></span>	
 					<h1 class="text-uppercase">malesuada fames turpis.</h1>
 					<p class="text-lowercase">vel ultrices mauris libero id diam. Vivamus tellus sagittis facilisis nisi quis
 						mollis risus quisque ultrices elit.</p>
 				</div>
-				<div class="col-sm-4 col-md-4 details animated wow fadeInDown" data-wow-delay=".1s"> <img src="img/f_icon2.png"
-						alt="" title="">
+				<div class="col-sm-4 col-md-4 details animated wow fadeInDown" data-wow-delay=".1s"> 
+					<span class="sprite-features f_icon2_png"></span>
 					<h1 class="text-uppercase">malesuada fames turpis.</h1>
 					<p class="text-lowercase">vel ultrices mauris libero id diam. Vivamus tellus sagittis facilisis nisi quis
 						mollis risus quisque ultrices elit.</p>
 				</div>
-				<div class="col-sm-4 col-md-4 details animated wow fadeInDown" data-wow-delay=".2s"> <img src="img/f_icon3.png"
-						alt="" title="">
+				<div class="col-sm-4 col-md-4 details animated wow fadeInDown" data-wow-delay=".2s"> 
+					<span class="sprite-features f_icon3_png"></span>
 					<h1 class="text-uppercase">malesuada fames turpis.</h1>
 					<p class="text-lowercase">vel ultrices mauris libero id diam. Vivamus tellus sagittis facilisis nisi quis
 						mollis risus quisque ultrices elit.</p>
 				</div>
 			</div>
 			<div class="row text-center">
-				<div class="col-sm-4 col-md-4 details animated wow fadeInDown" data-wow-delay="0s"> <img src="img/f_icon4.png"
-						alt="" title="">
+				<div class="col-sm-4 col-md-4 details animated wow fadeInDown" data-wow-delay="0s"> 
+					<span class="sprite-features f_icon4_png"></span>
 					<h1 class="text-uppercase">malesuada fames turpis.</h1>
 					<p class="text-lowercase">vel ultrices mauris libero id diam. Vivamus tellus sagittis facilisis nisi quis
 						mollis risus quisque ultrices elit.</p>
 				</div>
-				<div class="col-sm-4 col-md-4 details animated wow fadeInDown" data-wow-delay=".1s"> <img src="img/f_icon5.png"
-						alt="" title="">
+				<div class="col-sm-4 col-md-4 details animated wow fadeInDown" data-wow-delay=".1s"> 
+					<span class="sprite-features f_icon5_png"></span>
 					<h1 class="text-uppercase">malesuada fames turpis.</h1>
 					<p class="text-lowercase">vel ultrices mauris libero id diam. Vivamus tellus sagittis facilisis nisi quis
 						mollis risus quisque ultrices elit.</p>
 				</div>
-				<div class="col-sm-4 col-md-4 details animated wow fadeInDown" data-wow-delay=".2s"> <img src="img/f_icon6.png"
-						alt="" title="">
+				<div class="col-sm-4 col-md-4 details animated wow fadeInDown" data-wow-delay=".2s"> 
+					<span class="sprite-features f_icon6_png"></span>
 					<h1 class="text-uppercase">malesuada fames turpis.</h1>
 					<p class="text-lowercase">vel ultrices mauris libero id diam. Vivamus tellus sagittis facilisis nisi quis
 						mollis risus quisque ultrices elit.</p>
@@ -137,11 +143,12 @@
 	</section>
 	<section class="testimonials animated wow fadeIn" id="testimonials" data-wow-duration="2s">
 		<div class="container">
+			<h3 style="text-align: center;">Testimonials</h3>
 			<div class="testimonials_list">
 				<ul class="list-unstyled text-center slides clearfix" id="tslider">
 					<li>
 						<blockquote>
-							<p>Integer pharetra tellus varius, dictum erat vel, maximus tellus. Sed vitae auctor ipsum. Aliquam luctus
+							<p>1 Integer pharetra tellus varius, dictum erat vel, maximus tellus. Sed vitae auctor ipsum. Aliquam luctus
 								erat nec pulvinar vehicula donec congue tortor eget sem condimentum, ut tempor massa porttitor. Praesent
 								tincidunt mi orci in sollicitudin mi dapibus dapibus pellentesque habitant morbi tristique senectus et
 								malesuada fames turpis egestas.</p> <span class="author text-uppercase">John Doe</span> <span
@@ -150,7 +157,7 @@
 					</li>
 					<li>
 						<blockquote>
-							<p>Integer pharetra tellus varius, dictum erat vel, maximus tellus. Sed vitae auctor ipsum. Aliquam luctus
+							<p>2 Integer pharetra tellus varius, dictum erat vel, maximus tellus. Sed vitae auctor ipsum. Aliquam luctus
 								erat nec pulvinar vehicula donec congue tortor eget sem condimentum, ut tempor massa porttitor. Praesent
 								tincidunt mi orci in sollicitudin mi dapibus dapibus pellentesque habitant morbi tristique senectus et
 								malesuada fames turpis egestas.</p> <span class="author text-uppercase">Alex Fredy</span> <span
@@ -159,7 +166,7 @@
 					</li>
 					<li>
 						<blockquote>
-							<p>Integer pharetra tellus varius, dictum erat vel, maximus tellus. Sed vitae auctor ipsum. Aliquam luctus
+							<p>3 Integer pharetra tellus varius, dictum erat vel, maximus tellus. Sed vitae auctor ipsum. Aliquam luctus
 								erat nec pulvinar vehicula donec congue tortor eget sem condimentum, ut tempor massa porttitor. Praesent
 								tincidunt mi orci in sollicitudin mi dapibus dapibus pellentesque habitant morbi tristique senectus et
 								malesuada fames turpis egestas.</p> <span class="author text-uppercase">Sara Aliba</span> <span
@@ -175,27 +182,28 @@
 		</div>
 	</section>
 	<section class="sub_box">
-		<p class="cta_text animated wow fadeInDown">We're hiring. Join Our company!</p>
-		<form action="#" metohd="post" class="animated wow fadeIn" data-wow-duration="2s" id="submit_form"> <input
-				type="email" id="mc-email" placeholder="Enter your email" /> <button type="submit" id="mc_submit"> <i
-					class="icon"></i> </button></form>
+		<h3 class="cta_text animated wow fadeInDown">We're hiring. Join Our company!</h3>
+		<form action="#" method="post" class="animated wow fadeIn" data-wow-duration="2s" id="submit_form">
+			<input type="email" id="mc-email"/>
+			<label class='mc-email__label' for="mc-email">Enter your email</label>
+				<button type="submit" id="mc_submit"><span class='mc_send-text'>Send</span><i
+					class="icon"></i></button>
+
+		</form>
 		<div class="message" id="error_msg">Please Enter A Valid Email.</div>
 		<div class="message" id="success_msg">Thank You For Your Subscription.</div>
 	</section>
 	<footer>
 		<ul class="list-unstyled list-inline app_platform">
-			<li class="animated wow fadeInDown" data-wow-delay="0s"> <a href=""><img src="img/android_icon.png" alt=""
-						title=""></a></li>
-			<li class="animated wow fadeInDown" data-wow-delay=".1s"> <a href=""><img src="img/ios_icon.png" alt=""
-						title=""></a></li>
-			<li class="animated wow fadeInDown" data-wow-delay=".2s"> <a href=""><img src="img/windows_icon.png" alt=""
-						title=""></a></li>
+			<li class="animated wow fadeInDown" data-wow-delay="0s">
+				<a href="#"><span class="sprite-icon__logo android_icon_png"></span></a>
+			</li>
+			<li class="animated wow fadeInDown" data-wow-delay=".1s"><a href="#"><span class="sprite-icon__logo ios_icon_png"></span></a></li>
+			<li class="animated wow fadeInDown" data-wow-delay=".2s"><a href="#"><span class="sprite-icon__logo windows_icon_png"></span></a></li>
 		</ul>
 		<p class="copyright animated wow fadeIn" data-wow-duration="2s"> <strong>Pixelhint</strong>
 	</footer>
-	<!-- <script type="text/javascript" src="js/jquery.js" defer></script> -->
-	<script src="js/vendors.js" defer></script>
-	<script type="text/javascript" src="js/main.js" defer></script>
+	<script src="js/bundle.js" async></script>
 </body>
 
 </html>
