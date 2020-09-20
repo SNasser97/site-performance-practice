@@ -6,7 +6,6 @@ Exercise in improving keiko corp site performance (Udemy).
 <em>For those following the exercise I hope this helps you out</em>
 
 ### Table of contents
-  <p style="margin-left:30px"><a href="#methods">How to achieve good optimisation</a></p>
 <p style="margin-left:30px"><a href="#methods">How to achieve good optimisation</a></p>
 <p style="margin-left:30px"><a href="#after">Site speed - AFTER</a></p>
 <p style="margin-left:30px"><a href="#before">Site speed - BEFORE</a></p>
