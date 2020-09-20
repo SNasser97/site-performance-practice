@@ -29,7 +29,6 @@ Exercise in improving keiko corp site performance (Udemy).
   <li>Create css sprite sheet for some icons - serve only 1 image for multiple icons <a href='https://www.giftofspeed.com/sprite-generator/'>css sprite gen site</a>:
     <ul>
       <li>Make sprite for social images</li>
-      <li>Make sprite for company logo (yahoo)</li>
       <li>Make sprite for company logo (yahoo, google..)</li>
       <li>Make sprite for icons near iphone</li>
       <li>Make sprite for icons features</li>
