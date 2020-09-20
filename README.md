@@ -13,7 +13,7 @@ Exercise in improving keiko corp site performance (Udemy).
   
 <strong>Key notes:</strong>
 <ul>
-  <li>Skip the `bootstrap.css` file when using purify css - it will remove the arrow icons/mess the layout. <strong>Though you can still minify it with no issues</strong></li>
+  <li>Skip the `bootstrap.css` file when using purify css - it will remove the arrow icons/mess testiomonials layout. <strong>Though you can still minify it with no issues</strong></li>
   <li>Added a label to the email subscribe section + alt descriptions to images to improve accessbility score</li>
   <li>If you wanted to, you could serve only 1 image sprite</li>
 </ul>
